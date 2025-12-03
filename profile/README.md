@@ -32,7 +32,7 @@ MailDefender is organized into independent microservices:
 | Service               | Responsibility                                                                 |
 |-----------------------|-------------------------------------------------------------------------------|
 | **Validator** | Entry point to validate token..                      |
-| **Engine**     | MailDefender's hearth.       |
+| **Engine**     | MailDefender's heart.       |
 | **imap-connector**   | Expose IMAP function through an API.                      |
 | **Notifier**       | Send emails and notifications.                |
 
