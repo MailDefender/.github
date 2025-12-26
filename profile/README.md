@@ -2,7 +2,7 @@
 
 > Projet under active development
 
-**A microservice-based anti-spam solution to validate new email senders and protect your inbox from unwanted messages.**
+**A microservice-based anti-spam solution to validate new email senders and protect your inbox from unwanted messages without requiring proxy or heavy configuration.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/your-org/MailDefender.svg)](https://github.com/your-org/MailDefender/stargazers)
@@ -20,6 +20,8 @@ MailDefender is an **open-source**, **scalable**, and **modular** system designe
 - **Pending Message Queue**: Temporarily holds messages from unvalidated senders.
 - **Automatic Release**: Delivers all pending messages after successful validation.
 - **Non-Proxy Add-On**: Acts as an add-on to your existing email infrastructure, ensuring all data remains within your ecosystem and is never routed through a third-party proxy.
+- **Plug and Play**: No heavy configuration needed on your emails infrastucture, just configure imap and smtp credentials and start the sytem
+- **Quick & Easy deactivation**: As no configuration is applied / required to your email server, just turn off MailDefender and delete credential files
 - **Customizable Mail Sorting**: Automatically sorts emails based on user-defined rules, allowing for personalized inbox management.
 - **Extensible Architecture**: Built with microservices for easy integration of new features (e.g., SPF verification, IP reputation checks).
 
